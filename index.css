@@ -1,0 +1,86 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff9f9;
+  color: #222;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Home Section */
+.home {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  background-image:url(pics/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Intro Box */
+.intro {
+  text-align: center;
+  max-width: 700px;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  background-color: #aca7ed;
+  box-shadow: 0 10px 30px rgba(250, 247, 247, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.intro:hover {
+  transform: translateY(-5px);
+}
+
+/* Typography */
+.intro h1 {
+  font-size: 2.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.intro h3 {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  color: #fcfdff;
+  margin-top: 0rem;
+}
+
+/* Button */
+.btn {
+  margin-top: 1.5rem;
+  padding: 0.9rem 2rem;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #004999;
+}
+
+
+

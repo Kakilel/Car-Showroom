@@ -5,6 +5,7 @@
   }
   
   body {
+    width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -165,4 +166,31 @@ body {
   .thank-you .btn:hover {
     background-color: #555;
   }
+  .main-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+.main-footer p{
+  display: flex;
+  margin-left: 27%;
+  margin-top: 0.9%;
+}
+.icons{
+  font-size: 36px;
+ display: flex;
+ margin-left: 4%;
+ gap:20px;
+}
+.icons a{
+  color: aqua;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
