@@ -1,0 +1,38 @@
+.Cars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  gap: 20px;
+  scroll-behavior: smooth;
+  transition: all;
+  background-color: rgb(255, 255, 255);
+}
+.card a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-weight: bold;
+  background-color:#333;
+  color:rgb(255, 255, 255);
+}
+.card {
+  border: 0px solid;
+  border-radius: 6px;
+ margin: 0.5%;
+}
+.card h2 {
+    display: flex;
+    justify-content: center;
+}
+.card a:hover{
+  color: #007bff;
+  transition: 0.3s;
+  transform: scale(1.015);
+}
+

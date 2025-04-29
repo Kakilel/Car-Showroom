@@ -1,87 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Book a Test Drive - Elite Cars Showroom</title>
-  <link rel="stylesheet" href="style.css">
-  <form action="thankyou.html" method="get">
-<!-- AOS Animation Library -->
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Elite Cars Showroom</h1>
-      <nav>
-        <ul>
-          <li><a href="car-details.html">CARS</a></li>
-            <li><a href="#">BOOKING</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="show.html">ABOUT</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book a Test Drive - Elite Cars Showroom</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="booking.css" />
+    <form action="thankyou.html" method="get">
+      <!-- AOS Animation Library -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+        rel="stylesheet"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-  <section class="booking-form">
-    <div class="container">
-      <h2>Book a Test Drive</h2>
-      <form action="#" method="post">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
+      <body>
+        <header>
+          <div class="container">
+            <h1>Elite Cars Showroom</h1>
+            <nav>
+              <ul>
+                <li><a href="car-details.html">CARS</a></li>
+                <li><a href="#">BOOKING</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="show.html">ABOUT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
-        <label for="car">Select Car:</label>
-        <select id="car" name="car">
-          <option>Ferrari F8</option>
-          <option>Mercedes-Benz GLE</option>
-          <option>Range Rover Sport</option>
-          <option >Toyota Yaris</option>
-          <option >Mclaren P1</option>
-          <option >Lamborghini Urus 2019</option>
-          <option >Land Rover Defender</option>
-          <option >Land  Cruiser Prado</option>
-          <option >Mazda Demio</option>
-          <option >Mazda CX-5</option>
-          <option >Jeep Wrangler</option>
-          <option >Rolls Royce Cullinan</option>
-          <option >BMW M5</option>
-        </select>
+        <section class="booking-form">
+          <div class="container">
+            <h2>Book a Test Drive</h2>
+            <form action="#" method="post">
+              <div class="name">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
 
-        <label for="date">Preferred Date:</label>
-        <input type="date" id="date" name="Date" required>
+              <div class="choose">
+                <label for="car">Select Car:</label>
+                <select id="car" name="car">
+                  <option>Ferrari F8</option>
+                  <option>Mercedes-Benz GLE</option>
+                  <option>Range Rover Sport</option>
+                  <option>Toyota Yaris</option>
+                  <option>Mclaren P1</option>
+                  <option>Lamborghini Urus 2019</option>
+                  <option>Land Rover Defender</option>
+                  <option>Land Cruiser Prado</option>
+                  <option>Mazda Demio</option>
+                  <option>Mazda CX-5</option>
+                  <option>Jeep Wrangler</option>
+                  <option>Rolls Royce Cullinan</option>
+                  <option>BMW M5</option>
+                </select>
+              </div>
 
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
+              <div class="email">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
 
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
+              <div class="number">
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="date">
+                <label for="date">Prefered Date:</label>
+                <input type="date" id="date" name="Date" required />
+              </div>
+              <div class="nu">
+                <label for="ID-No">ID No:</label>
+                <input type="number" id="ID-No" name="ID-no" required />
+              </div>
+              <button type="submit" class="btn">Submit Booking</button>
+            </form>
+          </div>
+        </section>
 
-        <button type="submit" class="btn">Submit Booking</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="main-footer">
-    <div class="icons">
-      <a href="https://www.facebook.com/dominospizzakenya?_rdc=1&_rdr"
-        ><ion-icon name="logo-facebook"></ion-icon
-      ></a>
-      <a href="https://x.com/dominoskenya"
-        ><ion-icon class="fa-brands fa-x-twitter"></ion-icon
-      ></a>
-      <a href="https://www.instagram.com/dominospizzakenya"
-        ><ion-icon name="logo-instagram"></ion-icon
-      ></a>
-    </div>
-    <p>&copy; 2025 Elite Cars Showroom | Contact: info@elitecars.com</p>
-  </footer>
-</body>
-<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-<script
-  src="https://kit.fontawesome.com/47583ec26f.js"
-  crossorigin="anonymous"
-></script>
+        <footer class="main-footer">
+          <div class="icons">
+            <a href="https://www.facebook.com/dominospizzakenya?_rdc=1&_rdr"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+            <a href="https://x.com/dominoskenya"
+              ><ion-icon class="fa-brands fa-x-twitter"></ion-icon
+            ></a>
+            <a href="https://www.instagram.com/dominospizzakenya"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+          <p>&copy; 2025 Elite Cars Showroom | Contact: info@elitecars.com</p>
+        </footer>
+      </body>
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+      <script
+        src="https://kit.fontawesome.com/47583ec26f.js"
+        crossorigin="anonymous"
+      ></script>
+    </form>
+  </head>
 </html>
-
