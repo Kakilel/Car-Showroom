@@ -32,10 +32,7 @@ body {
     font-weight: bold;
     color: #333;
   }
-  .booking-form label{
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 50% 50%;
-  }
+ 
   .choose{
     margin-left:55%;
     margin-top:-9%;
@@ -71,15 +68,17 @@ body {
     background-color: #007bff;
     color: white;
     border: none;
+    display: flex;
+    justify-self: center;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition:  0.3s ease;
   }
   
   .booking-form .btn:hover {
     background-color: #0056b3;
-    transform: translateZ(5%);
+    transform: scale(1.1);
   }
   
   /* Responsive adjustments */
@@ -100,6 +99,18 @@ body {
   
     .booking-form .btn {
       font-size: 14px;
+    }
+    .choose{
+      margin-left:-0.1%;
+      margin-top:1%;
+    }
+    .number{
+      margin-left:-0.1%;
+      margin-top:1%
+    }
+    .nu{
+      margin-left:-0.1%;
+      margin-top:1%
     }
   }
   

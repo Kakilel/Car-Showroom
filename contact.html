@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Contact Us - Elite Cars Showroom</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
     <!-- AOS Animation Library -->
     <link
       href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
@@ -20,30 +21,50 @@
           <ul>
             <li><a href="car-details.html">CARS</a></li>
             <li><a href="booking.html">BOOKING</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a class="active">CONTACT</a></li>
             <li><a href="show.html">ABOUT</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="card">
+      <div class="container">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <p>
+            Feel free to reach out for any inquiries or feedback. We are here to
+            help!
+          </p>
+          <form class="fom">
+            <div class="name"><input class="name" type="text" id="name" placeholder="Your Name" required /></div>
+            <div class="email"><input class="email" type="email" placeholder="Your Email" required /></div>
+            <div class="message"><textarea class="message" rows="5" placeholder="Your Message" required></textarea></div>
+            <div class="submit"><button type="submit" class="btn">Send Message</button></div>
+          </form>
+          <div class="icons">
+            <a href="https://www.facebook.com/dominospizzakenya?_rdc=1&_rdr"
+            ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+              <a href="https://x.com/dominoskenya"
+              ><ion-icon class="fa-brands fa-x-twitter"></ion-icon
+                ></a>
+                <a href="https://www.instagram.com/dominospizzakenya"
+                ><ion-icon name="logo-instagram"></ion-icon
+                  ></a>
+                </div>
+                <div class="img">
+                  <img src="pics/Elite Car Buying Guide.jpeg" alt="img" width="600px" height="500px">
+                </div>
+        </div>
 
+        </div>
+      </div>
+    </div>
     <div class="info"></div>
     <section class="contact-info">
       <div class="container"></div>
     </section>
-
     <footer class="main-footer">
-      <div class="icons">
-        <a href="https://www.facebook.com/dominospizzakenya?_rdc=1&_rdr"
-          ><ion-icon name="logo-facebook"></ion-icon
-        ></a>
-        <a href="https://x.com/dominoskenya"
-          ><ion-icon class="fa-brands fa-x-twitter"></ion-icon
-        ></a>
-        <a href="https://www.instagram.com/dominospizzakenya"
-          ><ion-icon name="logo-instagram"></ion-icon
-        ></a>
-      </div>
       <p>&copy; 2025 Elite Cars Showroom | Contact: info@elitecars.com</p>
     </footer>
   </body>
