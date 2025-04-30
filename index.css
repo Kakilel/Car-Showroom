@@ -81,3 +81,6 @@ body {
 .btn:hover {
   background-color: #004999;
 }
+.main-footer {
+  margin-top: -0.1%;
+}
