@@ -64,8 +64,8 @@ body {
 /* Button */
 .btn {
   margin-top: 1.5rem;
-  padding: 0.9rem 2rem;
-  background-color: #0066ccad;
+  padding:10px 10px ;
+  background-color: #1d81e6bb;
   border: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;
